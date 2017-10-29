@@ -55,4 +55,151 @@ header {
   header > * {
     padding: .3rem; }
   header h1 {
-    color: #db5461; }
+    color: #db5461;
+    font-size: 2rem; }
+
+aside {
+  padding: .3rem;
+  font-style: Short Stack;
+  background-color: #d8d8d8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 3fr;
+  -ms-flex: 1 1 3fr;
+  flex: 1 1 3fr; }
+  aside .color--wrapper {
+    padding: 1.5rem .5rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%; }
+    aside .color--wrapper .color {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 1 5fr;
+      -ms-flex: 1 1 5fr;
+      flex: 1 1 5fr;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 100%; }
+      aside .color--wrapper .color > * {
+        border: 0.3rem solid #d8d8d8;
+        width: 75px;
+        height: 75px;
+        -webkit-box-shadow: -1px -1px 21px 0px rgba(29, 29, 27, 0.75);
+        box-shadow: -1px -1px 21px 0px rgba(29, 29, 27, 0.75); }
+  aside .div__pink {
+    background-color: #db5461; }
+  aside .div__blue {
+    background-color: #e3f2fd; }
+  aside .div__white {
+    background-color: #fafafa; }
+  aside .div__grey {
+    background-color: #686963; }
+  aside .div__teal {
+    background-color: #8aa29e; }
+  aside .texture--wrapper {
+    padding: 1.5rem .5rem; }
+    aside .texture--wrapper .texture {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 1 50%;
+      -ms-flex: 1 1 50%;
+      flex: 1 1 50%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 100%; }
+      aside .texture--wrapper .texture > * {
+        width: 150px;
+        height: 150px;
+        -webkit-box-shadow: -1px -1px 21px 0px rgba(29, 29, 27, 0.75);
+        box-shadow: -1px -1px 21px 0px rgba(29, 29, 27, 0.75);
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 2fr;
+        -ms-flex: 1 1 2fr;
+        flex: 1 1 2fr;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center; }
+      aside .texture--wrapper .textureimg {
+        width: 2rem; }
+        aside .texture--wrapper .textureimg .img--wood {
+          -o-object-fit: cover;
+          object-fit: cover; }
+        aside .texture--wrapper .textureimg .img--waves {
+          -o-object-fit: cover;
+          object-fit: cover; }
+  aside .button {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: .5rem; }
+    aside .button .cla {
+      color: #fafafa;
+      background-color: #db5461;
+      padding: .5rem;
+      font-size: 1.2rem; }
